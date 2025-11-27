@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import {
   Mail,
   Linkedin,
@@ -7,7 +7,7 @@ import {
   Twitter,
   FileText,
   PhoneCall,
-} from 'lucide-react';
+} from "lucide-react";
 
 const ContactPanel = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,38 +39,58 @@ const ContactPanel = () => {
             <ul className="space-y-3 text-sm text-gray-800">
               <li className="hover:bg-gray-100 px-3 py-2 rounded flex items-center gap-2">
                 <Mail size={18} />
-                <a href="mailto:parthodasm@gmail.com" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="mailto:parthodasm@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   parthodasm@gmail.com
                 </a>
               </li>
               <li className="hover:bg-gray-100 px-3 py-2 rounded flex items-center gap-2">
                 <Twitter size={18} />
-                <a href="https://x.com/Parthodasm23" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://x.com/Parthodasm23"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   @Parthodasm23
                 </a>
               </li>
               <li className="hover:bg-gray-100 px-3 py-2 rounded flex items-center gap-2">
                 <Linkedin size={18} />
-                <a href="https://www.linkedin.com/in/partha-das-b3754734b/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.linkedin.com/in/partha-das-b3754734b/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   LinkedIn
                 </a>
               </li>
               <li className="hover:bg-gray-100 px-3 py-2 rounded flex items-center gap-2">
                 <Github size={18} />
-                <a href="https://github.com/parthodas23/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/parthodas23/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   GitHub
                 </a>
               </li>
               <li className="hover:bg-gray-100 px-3 py-2 rounded flex items-center gap-2">
                 <PhoneCall size={18} />
-                <a href="https://wa.me/8801740220509" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://wa.me/8801740220509"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   WhatsApp
                 </a>
               </li>
               <li className="hover:bg-gray-100 px-3 py-2 rounded flex items-center gap-2">
                 <FileText size={18} />
                 <a
-                  href="https://drive.google.com/file/d/1E48y6X06klLnI4mV51nVavUzO8D7lZ7l/view?usp=sharing"
+                  href="https://drive.google.com/file/d/107xmPN9F0aA7ZXWKBh_tY2l-7iR9dt4D/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

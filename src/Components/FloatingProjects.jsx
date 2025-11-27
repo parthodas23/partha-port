@@ -14,13 +14,11 @@ const FloatingProjects = ({ className, isMobile }) => {
       title: "DesignFlow",
       description: "Online design editor",
       color: "from-blue-400 to-indigo-600",
-      link: "/projects/designflow",
     },
     {
       title: "SiteGen",
       description: "AI web app builder",
       color: "from-purple-400 to-fuchsia-600",
-      link: "/projects/sitegen",
     },
   ];
 
@@ -104,7 +102,7 @@ const FloatingProjects = ({ className, isMobile }) => {
           <p className="text-sm text-gray-500 mt-1">{project.description}</p>
           <div className="text-right text-xs text-indigo-500 mt-2">
             <a href={project.link} className="hover:underline">
-              view project →
+              {project.title === "UniNest" ? "view project →" : "Creating"}
             </a>
           </div>
         </motion.div>
